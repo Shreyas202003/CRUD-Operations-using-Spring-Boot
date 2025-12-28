@@ -24,7 +24,7 @@ import com.book.service.IbookService;
 public class bookController {
 
 	@Autowired
-	IbookService bservice;
+	IbookService bservice;	
 	
 	@PostMapping("/")
 	public void addController(@RequestBody book b) {
